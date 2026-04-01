@@ -47,7 +47,8 @@ public class BatchStructureMetric extends AbstractMetric<Map<String, BatchStruct
     private static final List<FlowMetricRetentionPolicy> SUPPORTED_POLICIES = List.of(
             BuiltInFlowMetricRetentionPolicies.LAST_1_MINUTE,
             BuiltInFlowMetricRetentionPolicies.LAST_5_MINUTES,
-            BuiltInFlowMetricRetentionPolicies.LAST_15_MINUTES
+            BuiltInFlowMetricRetentionPolicies.LAST_15_MINUTES,
+            BuiltInFlowMetricRetentionPolicies.LIFETIME
     );
     private final ConcurrentMap<FlowMetricRetentionPolicy, HistogramRetentionWindow> histogramsWindows = new ConcurrentHashMap<>();
 

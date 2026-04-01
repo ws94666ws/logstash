@@ -921,13 +921,20 @@ paths:
                           last_5_minutes: 14012
                           last_15_minutes: 14567
                         p50:
+                          lifetime: 14815
                           last_1_minute: 15240
                           last_5_minutes: 14030
                           last_15_minutes: 14600
                         p90:
+                          lifetime: 14825
                           last_1_minute: 15300
                           last_5_minutes: 14050
-                          last_15_minutes: 14630   
+                          last_15_minutes: 14630
+                        max:
+                          lifetime: 14830
+                          last_1_minute: 16000
+                          last_5_minutes: 14080
+                          last_15_minutes: 14670
                     events:
                       duration_in_millis: 365495
                       in: 216610
@@ -1226,13 +1233,20 @@ paths:
                               last_5_minutes: 14012
                               last_15_minutes: 14567
                             p50:
+                              lifetime: 14815
                               last_1_minute: 15240
                               last_5_minutes: 14030
                               last_15_minutes: 14600
                             p90:
+                              lifetime: 14825
                               last_1_minute: 15300
                               last_5_minutes: 14050
-                              last_15_minutes: 14630 
+                              last_15_minutes: 14630
+                            max:
+                              lifetime: 14830
+                              last_1_minute: 16000
+                              last_5_minutes: 14080
+                              last_15_minutes: 14670
                         events:
                           queue_push_duration_in_millis: 159
                           in: 45
